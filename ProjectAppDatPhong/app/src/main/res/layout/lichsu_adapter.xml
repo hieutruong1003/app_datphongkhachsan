@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Khách Sạn"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:textStyle="bold|italic"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:id="@+id/textViewKhachSanLichSu"
+        android:background="#03A9F4"
+        ></TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:weightSum="2">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textStyle="italic"
+            android:textColor="#111"
+            android:textSize="16sp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewLoaiPhongLichSu"
+            android:text="Loại Phòng:">
+        </TextView>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textStyle="italic"
+            android:textColor="#111"
+            android:textSize="16sp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewViTriPhongLichSu"
+            android:text="Vị Trí Phòng:">
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_margin="10dp"
+    android:weightSum="2">
+    <TextView
+        android:id="@+id/textViewTongTienLichSu"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="wrap_content"
+        android:text="Tiền Phòng:"
+        android:textStyle="italic"
+        android:textColor="#111"
+        android:textSize="16sp"
+        ></TextView>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:weightSum="2">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textStyle="italic"
+            android:textColor="#111"
+            android:textSize="16sp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewNgayDenLichSu"
+            android:text="Ngày Đến:">
+        </TextView>
+        <TextView
+            android:id="@+id/textViewNgayDiLichSu"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Ngày Đi: "
+            android:textStyle="italic"
+            android:textColor="#111"
+            android:textSize="16sp"
+            ></TextView>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#03A9F4"></TextView>
+</LinearLayout>
